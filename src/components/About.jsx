@@ -17,7 +17,7 @@ const About = () => {
       <motion.h1
         variants={container(0)}
         initial="hidden"
-        whileInView="visible" // ใช้ whileInView เพื่อให้แสดงเมื่ออยู่ในมุมมอง
+        whileInView="visible" 
         className="my-20 text-center text-4xl"
       >
         About
@@ -29,7 +29,7 @@ const About = () => {
           <motion.div
             variants={container(0.5)}
             initial="hidden"
-            whileInView="visible" // ใช้ whileInView เพื่อให้แสดงเมื่ออยู่ในมุมมอง
+            whileInView="visible" 
             className="flex items-center justify-center"
           >
             <motion.img
@@ -38,7 +38,7 @@ const About = () => {
               alt="about"
               variants={container(1)}
               initial="hidden"
-              whileInView="visible" // ใช้ whileInView เพื่อให้แสดงเมื่ออยู่ในมุมมอง
+              whileInView="visible" 
               transition={{ duration: 1 }}
             />
           </motion.div>
@@ -47,13 +47,13 @@ const About = () => {
           <motion.div
             variants={container(1)}
             initial="hidden"
-            whileInView="visible" // ใช้ whileInView เพื่อให้แสดงเมื่ออยู่ในมุมมอง
+            whileInView="visible" 
             className="flex items-center justify-center"
           >
             <motion.p
               variants={container(1.2)}
               initial="hidden"
-              whileInView="visible" // ใช้ whileInView เพื่อให้แสดงเมื่ออยู่ในมุมมอง
+              whileInView="visible" 
               className="my-2 max-w-xl py-6"
             >
               {ABOUT_TEXT}
