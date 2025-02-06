@@ -17,17 +17,17 @@ export const PROJECTS = [
   },
   {
     name: "Project 2",
-    description: "Web Food review.",
-    github: "https://github.com/Siriyakorn348-2/Food_review", 
-    techStack: "Node JS, Express, MongoDB",
-    year: "2023", 
+    description: "Web Dog Community.",
+    github: "", 
+    techStack: "Java Spring Boot ",
+    year: "2024", 
   },
   {
     name: "Project 3",
-    description: "Web Blog .",
+    description: " Web Food review.",
     github: "https://github.com/Siriyakorn348-2/react-web_blog", 
     techStack: "Node JS, Express, MongoDB",
-    year: "2024 - Present", 
+    year: "2024", 
   },
 ];
 
