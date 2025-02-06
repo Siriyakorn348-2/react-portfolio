@@ -1,14 +1,11 @@
 
 
-export const HERO_CONTENT = `I am a third-year student at Khon Kaen University with a strong interest in web application development. 
-Although I don't have real-world experience yet, I am eager to learn new technologies and enhance 
-my skills in building efficient applications. I have gained knowledge in programming languages 
-and frameworks such as HTML, CSS, JavaScript, React, and Node.js, which has helped me understand the web development process more clearly. I am ready to apply the skills 
-I have learned in real projects and collaborate with teams to develop web applications that meet user and organizational needs.`;
+export const HERO_CONTENT = `I am a third-year student at Khon Kaen University with a strong interest in web application development. I am eager to learn new technologies and enhance my skills in building efficient applications.
+I have knowledge of programming languages and frameworks such as HTML, CSS, JavaScript, React, and Node.js, which have helped me gain a clearer understanding of the web development process.
+I am ready to apply the skills I have learned to real projects and collaborate with teams to develop web applications that meet user needs and organizational requirements.`;
 
-export const ABOUT_TEXT = `I am a Computer Science student at Khon Kaen University with a current GPA of 3.75.
-I have a strong passion for software development and data analysis and am preparing for an internship soon.
-Through my academic journey, I have honed skills in programming, problem-solving, and teamwork. I aim to apply these skills in challenging and innovative projects to contribute to organizational growth while continuing to develop myself professionally.`;
+export const ABOUT_TEXT = `I am a Computer Science student at Khon Kaen University with a current GPA of 3.43. I have a strong interest in frontend web development, focusing on designing and developing efficient, user-friendly interfaces that enhance the user experience (UX/UI).
+I have experience working with HTML, CSS, and JavaScript, as well as frameworks like React to create modern and visually appealing websites. Additionally, I value teamwork and continuous learning of new technologies to further improve my skills.`;
 
 export const PROJECTS = [
   {
