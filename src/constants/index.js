@@ -1,54 +1,75 @@
 
 
-export const HERO_CONTENT = `I am a third-year student at Khon Kaen University with a strong interest in web application development. I am eager to learn new technologies and enhance my skills in building efficient applications.
-I have knowledge of programming languages and frameworks such as HTML, CSS, JavaScript, React, and Node.js, which have helped me gain a clearer understanding of the web development process.
-I am ready to apply the skills I have learned to real projects and collaborate with teams to develop web applications that meet user needs and organizational requirements.`;
+export const HERO_CONTENT = `I am a third-year student at Khon Kaen University with a strong interest in web application development. 
+Although I don't have real-world experience yet, I am eager to learn new technologies and enhance 
+my skills in building efficient applications. I have gained knowledge in programming languages 
+and frameworks such as HTML, CSS, JavaScript, React, and Node.js, which has helped me understand the web development process more clearly. I am ready to apply the skills 
+I have learned in real projects and collaborate with teams to develop web applications that meet user and organizational needs.`;
 
-export const ABOUT_TEXT = `I am a Computer Science student at Khon Kaen University with a current GPA of 3.43. I have a strong interest in frontend web development, focusing on designing and developing efficient, user-friendly interfaces that enhance the user experience (UX/UI).
-I have experience working with HTML, CSS, and JavaScript, as well as frameworks like React to create modern and visually appealing websites. Additionally, I value teamwork and continuous learning of new technologies to further improve my skills.`;
+export const ABOUT_TEXT = `I am a Computer Science student at Khon Kaen University with a current GPA of 3.75.
+I have a strong passion for software development and data analysis and am preparing for an internship soon.
+Through my academic journey, I have honed skills in programming, problem-solving, and teamwork. I aim to apply these skills in challenging and innovative projects to contribute to organizational growth while continuing to develop myself professionally.`;
 
 export const PROJECTS = [
   {
     name: "Project 1",
-    description: "Application for dog owners.",
+    description: "An application for dog owners.",
     github: "https://github.com/Siriyakorn348-2/PettyHub", 
     techStack: "Kotlin, Firebase",
     year: "2024 - Present", 
+    images: [
+      "/images/project1/1.png",
+      "/images/project1/2.png",
+      "/images/project1/3.png",
+      "/images/project1/4.png",
+      "/images/project1/5.png",
+    ],
+    details: `
+- Features: Record pet information, medication reminders, share photos with friends
+- Uses Firebase for data storage and push notifications
+- Developed in Kotlin using Android Studio
+    `,
   },
   {
     name: "Project 2",
-    description: "Web Dog Community.",
-    github: "", 
-    techStack: "Java Spring Boot ",
-    year: "2024", 
+    description: "Web Food review.",
+    github: "https://github.com/Siriyakorn348-2/Food_review", 
+    techStack: "Node JS, Express, MongoDB",
+    year: "2023", 
   },
   {
     name: "Project 3",
-    description: " Web Food review.",
+    description: "Web Blog .",
     github: "https://github.com/Siriyakorn348-2/react-web_blog", 
     techStack: "Node JS, Express, MongoDB",
-    year: "2024", 
+    year: "2024 - Present", 
   },
 ];
+
 
 export const SKILLS = {
   frontend: [
     { name: 'HTML' },
     { name: 'CSS' },
     { name: 'JavaScript' },
+    {name : 'TypeScript'},
     { name: 'React' },
+    { name: 'Next.js' },
+    { name: 'TailwindCSS' },
+    { name: 'MUI' },
   ],
   backend: [
     { name: 'Node.js' },
     { name: 'Express' },
     { name: 'MongoDB' },
-    { name: 'Kotlin, Java' },
+    { name: 'Kotlin' },
   ],
   tools: [
     { name: 'Git & GitHub' },
     { name: 'Visual Studio Code' },
     { name: 'Webpack' },
     { name: 'Responsive Design' },
+    { name: 'Figma' },
   ],
   softSkills: [
     { name: 'Communication' },
@@ -63,3 +84,19 @@ export const CONTACT = {
   email: "siriyakorn0327@gmail.com",
   github: "Siriyakorn348-2"
 };
+
+
+export const WORK_EXPERIENCES = [
+  {
+    position: "Web Developer Intern",
+    company: "Your Company / Organization Name",
+    duration: "Jun - Nov 2025",
+    details: `
+- Gathered user requirements and identified key issues by analyzing root causes
+- Designed interactive prototypes to communicate ideas
+- Developed web applications using TypeScript, Node.js, Next.js, and MUI
+- Conducted UAT and tested system performance
+- Deployed to production and monitored post-launch
+    `,
+  },
+]

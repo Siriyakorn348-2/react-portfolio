@@ -18,7 +18,6 @@ const TechnicalProficiency = () => {
       </h1>
 
       <div className="flex flex-wrap justify-between gap-2">
-        {/* Frontend Skills */}
         <motion.div
           className="bg-black text-white p-6 rounded-xl shadow-lg w-72"
           variants={container(0.5)} 
@@ -39,7 +38,6 @@ const TechnicalProficiency = () => {
           </ul>
         </motion.div>
 
-        {/* Backend Skills */}
         <motion.div
           className="bg-black text-white p-6 rounded-xl shadow-lg w-72"
           variants={container(1)}
@@ -60,7 +58,6 @@ const TechnicalProficiency = () => {
           </ul>
         </motion.div>
 
-        {/* Tools Skills */}
         <motion.div
           className="bg-black text-white p-6 rounded-xl shadow-lg w-72"
           variants={container(1.2)} 
@@ -81,7 +78,6 @@ const TechnicalProficiency = () => {
           </ul>
         </motion.div>
 
-        {/* Soft Skills */}
         <motion.div
           className="bg-black text-white p-6 rounded-xl shadow-lg w-72"
           variants={container(1.5)} 
