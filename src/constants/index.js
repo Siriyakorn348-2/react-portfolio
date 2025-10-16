@@ -1,14 +1,12 @@
 
+export const HERO_CONTENT = `I am a recent Computer Science graduate with hands-on experience in building web applications and designing UI/UX.
+Proficient in TypeScript, JavaScript, Node.js, React, Next.js, MUI, and Figma, gained through my internship at Repco Nex Industrial Solutions.
+I am eager to grow in the Frontend and UX/UI field and contribute to creating modern, user-friendly, and high-quality web applications.`;
 
-export const HERO_CONTENT = `I am a third-year student at Khon Kaen University with a strong interest in web application development. 
-Although I don't have real-world experience yet, I am eager to learn new technologies and enhance 
-my skills in building efficient applications. I have gained knowledge in programming languages 
-and frameworks such as HTML, CSS, JavaScript, React, and Node.js, which has helped me understand the web development process more clearly. I am ready to apply the skills 
-I have learned in real projects and collaborate with teams to develop web applications that meet user and organizational needs.`;
-
-export const ABOUT_TEXT = `I am a Computer Science student at Khon Kaen University with a current GPA of 3.75.
-I have a strong passion for software development and data analysis and am preparing for an internship soon.
-Through my academic journey, I have honed skills in programming, problem-solving, and teamwork. I aim to apply these skills in challenging and innovative projects to contribute to organizational growth while continuing to develop myself professionally.`;
+export const ABOUT_TEXT = `I hold a degree in Computer Science with a cumulative GPA of 3.46.
+I am passionate about software development and data analysis, and I am ready to take on new challenges.
+Through my studies and internship, I have developed strong skills in programming, problem-solving, and teamwork.
+I am committed to applying these skills to deliver effective projects, support organizational growth, and continue developing professionally.`;
 
 export const PROJECTS = [
   {
@@ -32,17 +30,35 @@ export const PROJECTS = [
   },
   {
     name: "Project 2",
-    description: "Web Food review.",
+    description: "Web platform for food reviews.",
     github: "https://github.com/Siriyakorn348-2/Food_review", 
-    techStack: "Node JS, Express, MongoDB",
+    techStack: "Node.js, Express, MongoDB",
     year: "2023", 
+    images: [
+      "/images/project2/1.png",
+      "/images/project2/2.png",
+      "/images/project2/3.png",
+    ],
+    details: `
+- Food review website using MongoDB to store review data
+- Features: User registration, add reviews, search restaurants
+- Built with Node.js + Express for API
+    `,
   },
   {
     name: "Project 3",
-    description: "Web Blog .",
+    description: "Web Blog platform.",
     github: "https://github.com/Siriyakorn348-2/react-web_blog", 
-    techStack: "Node JS, Express, MongoDB",
+    techStack: "Node.js, Express, MongoDB",
     year: "2024 - Present", 
+    images: [
+      "/images/project3/1.jpg",
+    ],
+    details: `
+- Blog website for posting articles and comments
+- Frontend built with React + TailwindCSS
+- Backend built with Node.js + Express + MongoDB
+    `,
   },
 ];
 
