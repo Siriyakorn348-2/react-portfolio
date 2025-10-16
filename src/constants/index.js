@@ -105,6 +105,7 @@ export const CONTACT = {
 export const WORK_EXPERIENCES = [
   {
     position: "Web Developer Intern",
+    company: "REPCO NEX INDUSTRIAL SOLUTIONS",
     duration: "Jun - Nov 2025",
     details: `
 - Gathered user requirements and identified key issues by analyzing root causes
