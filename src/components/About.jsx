@@ -13,12 +13,13 @@ const container = (delay = 0) => ({
 
 const About = () => {
   return (
-    <div className="border-b border-neutral-900 pb-20">
+    <div className="border-b border-neutral-900 pb-20 ">
       <motion.h1
         variants={container(0)}
         initial="hidden"
         whileInView="visible"
-        className="my-20 text-center text-4xl font-bold"
+        viewport={{ once: true }}
+        className="my-20 text-center text-5xl font-bold text-white"
       >
         About <span className="text-purple-500">Me</span>
       </motion.h1>
@@ -35,6 +36,9 @@ const About = () => {
             src={aboutImg}
             alt="about"
             className="rounded-3xl shadow-2xl shadow-purple-500/30 w-full max-w-md object-cover transition-transform duration-500 hover:scale-105"
+            variants={container(0.5)}
+            initial="hidden"
+            whileInView="visible"
           />
         </motion.div>
 
@@ -43,13 +47,13 @@ const About = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="w-full lg:w-1/2"
+          className="w-full lg:w-1/2 max-w-xl text-center lg:text-left"
         >
           <motion.p
             variants={container(0.8)}
             initial="hidden"
             whileInView="visible"
-            className="my-2 max-w-xl py-6 text-gray-300 leading-relaxed"
+            className="text-gray-300 text-lg leading-relaxed"
           >
             {ABOUT_TEXT}
           </motion.p>
