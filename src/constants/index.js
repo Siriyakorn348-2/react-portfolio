@@ -1,7 +1,8 @@
 
-export const HERO_CONTENT = `I am a recent Computer Science graduate with hands-on experience in building web applications and designing UI/UX.
-Proficient in TypeScript, JavaScript, Node.js, React, Next.js, MUI, and Figma, gained through my internship at Repco Nex Industrial Solutions.
-I am eager to grow in the Frontend and UX/UI field and contribute to creating modern, user-friendly, and high-quality web applications.`;
+export const HERO_CONTENT = `I am a recent Computer Science graduate from Khon Kaen University with skills in web development and UI design.
+ I am familiar with technologies such as TypeScript, JavaScript, Node.js, React, Next.js, MUI, and Figma.
+I am passionate about building web applications and am always eager to learn new technologies.
+ I am committed to growing as a developer and continuously improving my skills.`;
 
 export const ABOUT_TEXT = `I hold a degree in Computer Science with a cumulative GPA of 3.46.
 I am passionate about software development and data analysis, and I am ready to take on new challenges.
@@ -28,21 +29,21 @@ export const PROJECTS = [
 - Developed in Kotlin using Android Studio
     `,
   },
-  {
+    {
     name: "Project 2",
-    description: "Web platform for food reviews.",
-    github: "https://github.com/Siriyakorn348-2/Food_review", 
-    techStack: "Node.js, Express, MongoDB",
-    year: "2023", 
+    description: "Web Movie Reviews.",
+    github: "https://github.com/Siriyakorn348-2/movies-review", 
+    techStack: "React,Tailwind CSS,Node.js, Express, PostgreSQL ",
+    year: "2025", 
     images: [
-      "/images/project2/1.png",
-      "/images/project2/2.png",
-      "/images/project2/3.png",
+      "/images/project2-1/1.png",
     ],
     details: `
-- Food review website using MongoDB to store review data
-- Features: User registration, add reviews, search restaurants
-- Built with Node.js + Express for API
+-Developed a full-stack movie review web app with React, Tailwind CSS, Node.js, Express, and PostgreSQL
+-Built RESTful APIs for movies, reviews, favorites, blogs, and comments using Prisma ORM
+-Implemented JWT authentication, bcrypt, and integrated TMDB API for movie data
+-Enabled rich text blogging with Quill/Lexical, image uploads via Cloudinary, and smooth UI with Framer Motion
+-Created a responsive and interactive user interface for browsing movies and interacting with content
     `,
   },
   {
@@ -71,6 +72,7 @@ export const SKILLS = {
     {name : 'TypeScript'},
     { name: 'React' },
     { name: 'Next.js' },
+    { name: 'Nuxt.js' },
     { name: 'TailwindCSS' },
     { name: 'MUI' },
   ],
@@ -81,16 +83,15 @@ export const SKILLS = {
     { name: 'Kotlin' },
   ],
   tools: [
-    { name: 'Git & GitHub' },
+    { name: 'GitHub' },
     { name: 'Visual Studio Code' },
-    { name: 'Webpack' },
-    { name: 'Responsive Design' },
     { name: 'Figma' },
   ],
   softSkills: [
     { name: 'Communication' },
     { name: 'Problem Solving' },
     { name: 'Teamwork' },
+    { name: 'Responsibility'}
   ],
 };
 
@@ -105,14 +106,15 @@ export const CONTACT = {
 export const WORK_EXPERIENCES = [
   {
     position: "Web Developer Intern",
-    company: "REPCO NEX INDUSTRIAL SOLUTIONS",
+    company: "REPCO NEX INDUSTRIAL SOLUTIONS ",
     duration: "Jun - Nov 2025",
     details: `
-- Gathered user requirements and identified key issues by analyzing root causes
-- Designed interactive prototypes to communicate ideas
-- Developed web applications using TypeScript, Node.js, Next.js, and MUI
-- Conducted UAT and tested system performance
-- Deployed to production and monitored post-launch
+-Collected user requirements and designed user interfaces using Figma.
+-Developed interactive web interfaces using Next.js, TypeScript, and MUI.
+-Implemented TypeScript across the project, reducing runtime errors and bugs.
+-Applied responsive design principles to ensure correct display across devices, improving mobile user experience.
+-Designed and optimized reusable components, enhancing development efficiency.
+-Collaborated with backend developers to integrate RESTful APIs and improve web performance, resulting in faster data retrieval and smoother user experiences.
     `,
   },
 ]
