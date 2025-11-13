@@ -9,7 +9,7 @@ const Navbar = () => {
       </div>
       <div  className="m-8 flex items-center justify-center gap-4 text-2xl">
       <a
-          href="https://github.com/Siriyakorn348-2" 
+          href="https://github.com/Siriyakorn348-2?tab=repositories" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-white hover:text-gray-600"

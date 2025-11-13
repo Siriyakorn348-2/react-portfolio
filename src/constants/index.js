@@ -42,7 +42,6 @@ export const PROJECTS = [
 -Developed a full-stack movie review web app with React, Tailwind CSS, Node.js, Express, and PostgreSQL
 -Built RESTful APIs for movies, reviews, favorites, blogs, and comments using Prisma ORM
 -Implemented JWT authentication, bcrypt, and integrated TMDB API for movie data
--Enabled rich text blogging with Quill/Lexical, image uploads via Cloudinary, and smooth UI with Framer Motion
 -Created a responsive and interactive user interface for browsing movies and interacting with content
     `,
   },
