@@ -14,7 +14,7 @@ const container = (delay) => ({
   },
 })
 
-const roles = ["Full Stack Developer", "Frontend UI Designer"]
+const roles = ["Full Stack Developer", "Frontend Developer", "UI/UX Designer"]
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0)
@@ -22,7 +22,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentRole((prev) => (prev + 1) % roles.length)
-    }, 10000)
+    }, 7000)
     return () => clearInterval(interval)
   }, [])
 
