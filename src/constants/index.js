@@ -4,7 +4,7 @@ export const HERO_CONTENT = `I am a recent Computer Science graduate from Khon K
 I am passionate about building web applications and am always eager to learn new technologies.
  I am committed to growing as a developer and continuously improving my skills.`;
 
-export const ABOUT_TEXT = `I hold a degree in Computer Science with a cumulative GPA of 3.46.
+export const ABOUT_TEXT = `I hold a degree in Computer Science with a cumulative GPA of 3.48.
 I am passionate about software development and data analysis, and I am ready to take on new challenges.
 Through my studies and internship, I have developed strong skills in programming, problem-solving, and teamwork.
 I am committed to applying these skills to deliver effective projects, support organizational growth, and continue developing professionally.`;
