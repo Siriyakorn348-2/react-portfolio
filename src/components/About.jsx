@@ -128,9 +128,9 @@ const About = () => {
               whileInView="visible"
               className="text-gray-300 text-lg leading-relaxed relative"
             >
-              <span className="text-5xl text-purple-500/50 absolute -top-2 -left-2 font-serif">"</span>
+            <span className="text-5xl text-purple-500/40 absolute -top-6 -left-6 font-serif pointer-events-none">"</span>
               {ABOUT_TEXT}
-              <span className="text-5xl text-purple-500/50 absolute -bottom-6 -right-2 font-serif">"</span>
+            <span className="text-5xl text-purple-500/40 absolute -bottom-8 -right-6 font-serif pointer-events-none">"</span>
             </motion.p>
 
         
