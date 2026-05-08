@@ -1,13 +1,12 @@
 
-export const HERO_CONTENT = `I am a recent Computer Science graduate from Khon Kaen University with skills in web development and UI design.
- I am familiar with technologies such as TypeScript, JavaScript, Node.js, React, Next.js, MUI, and Figma.
-I am passionate about building web applications and am always eager to learn new technologies.
- I am committed to growing as a developer and continuously improving my skills.`;
+export const HERO_CONTENT = `I am a recent Computer Science graduate from Khon Kaen University with a strong interest in UX/UI design and digital product development.
+I have experience in UX/UI design, starting from gathering user requirements, analyzing user problems and behavior, to creating user flows, wireframes, prototypes, and final UI designs that align with real user needs.
+With a background in design and front-end development, I create intuitive and practical interfaces using Figma, Next.js, TypeScript, and MUI.
+I am committed to creating meaningful user experiences and continuously improving my skills as a UX/UI Designer.
+`;
 
-export const ABOUT_TEXT = `I hold a degree in Computer Science with a cumulative GPA of 3.48.
-I am passionate about software development and data analysis, and I am ready to take on new challenges.
-Through my studies and internship, I have developed strong skills in programming, problem-solving, and teamwork.
-I am committed to applying these skills to deliver effective projects, support organizational growth, and continue developing professionally.`;
+export const ABOUT_TEXT = `I hold a degree in Computer Science with a cumulative GPA of 3.48. Through my studies and internship, I developed strong skills in problem-solving, teamwork, and digital product development. With experience in both design and front-end development, 
+I am passionate about creating intuitive and user-centered interfaces. I am eager to apply my skills, contribute to meaningful projects, and continue growing as a UX/UI Designer.`;
 
 export const PROJECTS = [
   {
@@ -64,6 +63,11 @@ export const PROJECTS = [
 
 
 export const SKILLS = {
+    Design: [
+    { name: 'GitHub' },
+    { name: 'Visual Studio Code' },
+    { name: 'Figma' },
+  ],
   frontend: [
     { name: 'HTML' },
     { name: 'CSS' },
@@ -76,16 +80,11 @@ export const SKILLS = {
     { name: 'MUI' },
   ],
   backend: [
-    { name: 'Node.js' },
-    { name: 'Express' },
-    { name: 'MongoDB' },
+    { name: 'C#' },
+    { name: '.NET' },
     { name: 'Kotlin' },
   ],
-  tools: [
-    { name: 'GitHub' },
-    { name: 'Visual Studio Code' },
-    { name: 'Figma' },
-  ],
+
   softSkills: [
     { name: 'Communication' },
     { name: 'Problem Solving' },
@@ -108,12 +107,12 @@ export const WORK_EXPERIENCES = [
     company: "REPCO NEX INDUSTRIAL SOLUTIONS ",
     duration: "Jun - Nov 2025",
     details: `
--Collected user requirements and designed user interfaces using Figma.
--Developed interactive web interfaces using Next.js, TypeScript, and MUI.
--Implemented TypeScript across the project, reducing runtime errors and bugs.
--Applied responsive design principles to ensure correct display across devices, improving mobile user experience.
--Designed and optimized reusable components, enhancing development efficiency.
--Collaborated with backend developers to integrate RESTful APIs and improve web performance, resulting in faster data retrieval and smoother user experiences.
+- Gathered user requirements and identified user pain points to translate business goals into user-centered solutions.
+- Designed end-to-end user journeys, task flows, and user flows to create clear and intuitive product experiences.
+- Planned information architecture and interaction patterns to improve navigation and reduce user friction throughout the product.
+- Created wireframes, interactive prototypes, and final UI designs in Figma, focusing on usability, accessibility, and visual consistency.
+- Designed and developed responsive web interfaces using Next.js, TypeScript, and MUI, transforming approved designs into fully functional products.
+- Built reusable UI components and collaborated with backend developers to integrate RESTful APIs, ensuring smooth implementation and seamless user experiences across devices.
     `,
   },
 ]
