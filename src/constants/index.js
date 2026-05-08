@@ -5,8 +5,7 @@ With a background in design and front-end development, I create intuitive and pr
 I am committed to creating meaningful user experiences and continuously improving my skills as a UX/UI Designer.
 `;
 
-export const ABOUT_TEXT = `I hold a degree in Computer Science with a cumulative GPA of 3.48. Through my studies and internship, I developed strong skills in problem-solving, teamwork, and digital product development. With experience in both design and front-end development, 
-I am passionate about creating intuitive and user-centered interfaces. I am eager to apply my skills, contribute to meaningful projects, and continue growing as a UX/UI Designer.`;
+export const ABOUT_TEXT = `I hold a degree in Computer Science with a cumulative GPA of 3.48. During my studies and internship, I gained hands-on experience in UX/UI design and front-end development, from gathering requirements and designing user flows to building responsive web interfaces. These experiences strengthened my problem-solving, collaboration, and ability to turn ideas into practical digital products.`;
 
 export const PROJECTS = [
   {
@@ -32,6 +31,7 @@ export const PROJECTS = [
     name: "Project 2",
     description: "Web Movie Reviews.",
     github: "https://github.com/Siriyakorn348-2/movies-review", 
+    liveUrl: "https://movies-review-gamma.vercel.app/",
     techStack: "React,Tailwind CSS,Node.js, Express, PostgreSQL ",
     year: "2025", 
     images: [
@@ -63,19 +63,18 @@ export const PROJECTS = [
 
 
 export const SKILLS = {
-    Design: [
-    { name: 'GitHub' },
-    { name: 'Visual Studio Code' },
+  Design: [
     { name: 'Figma' },
+    { name: 'Wireframing' },
+    { name: 'Prototyping' },
+    { name: 'User Flow' }
   ],
   frontend: [
-    { name: 'HTML' },
-    { name: 'CSS' },
+    { name: 'HTML,CSS' },
     { name: 'JavaScript' },
     {name : 'TypeScript'},
     { name: 'React' },
     { name: 'Next.js' },
-    { name: 'Nuxt.js' },
     { name: 'TailwindCSS' },
     { name: 'MUI' },
   ],
@@ -89,7 +88,7 @@ export const SKILLS = {
     { name: 'Communication' },
     { name: 'Problem Solving' },
     { name: 'Teamwork' },
-    { name: 'Responsibility'}
+    { name: 'Responsibility' }
   ],
 };
 

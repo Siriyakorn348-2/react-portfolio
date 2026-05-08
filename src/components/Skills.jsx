@@ -24,13 +24,13 @@ const TechnicalProficiency = () => {
           initial="hidden"
           whileInView="visible"
         >
-          <h2 className="text-3xl font-semibold mb-4 text-gradient-to-r from-green-400 to-blue-500">
+          <h2 className="text-3xl font-semibold mb-4 text-gradient-to-r from-teal-400 to-blue-600">
             <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-              Frontend
+              Design
             </span>
           </h2>
           <ul>
-            {SKILLS.frontend.map((skill) => (
+            {(SKILLS.Design || []).map((skill) => (
               <li key={skill.name} className="text-xl mb-2">
                 {skill.name}
               </li>
@@ -40,7 +40,27 @@ const TechnicalProficiency = () => {
 
         <motion.div
           className="bg-black text-white p-6 rounded-xl shadow-lg w-72"
-          variants={container(1)}
+          variants={container(1)} 
+          initial="hidden"
+          whileInView="visible"
+        >
+          <h2 className="text-3xl font-semibold mb-4 text-gradient-to-r from-green-400 to-blue-500">
+            <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
+              Frontend
+            </span>
+          </h2>
+          <ul>
+            {(SKILLS.frontend || []).map((skill) => (
+              <li key={skill.name} className="text-xl mb-2">
+                {skill.name}
+              </li>
+            ))}
+          </ul>
+        </motion.div>
+
+        <motion.div
+          className="bg-black text-white p-6 rounded-xl shadow-lg w-72"
+          variants={container(1.2)}
           initial="hidden"
           whileInView="visible"
         >
@@ -50,27 +70,7 @@ const TechnicalProficiency = () => {
             </span>
           </h2>
           <ul>
-            {SKILLS.backend.map((skill) => (
-              <li key={skill.name} className="text-xl mb-2">
-                {skill.name}
-              </li>
-            ))}
-          </ul>
-        </motion.div>
-
-        <motion.div
-          className="bg-black text-white p-6 rounded-xl shadow-lg w-72"
-          variants={container(1.2)} 
-          initial="hidden"
-          whileInView="visible"
-        >
-          <h2 className="text-3xl font-semibold mb-4 text-gradient-to-r from-teal-400 to-blue-600">
-            <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-              Tools
-            </span>
-          </h2>
-          <ul>
-            {SKILLS.tools.map((skill) => (
+            {(SKILLS.backend || []).map((skill) => (
               <li key={skill.name} className="text-xl mb-2">
                 {skill.name}
               </li>
@@ -90,7 +90,7 @@ const TechnicalProficiency = () => {
             </span>
           </h2>
           <ul>
-            {SKILLS.softSkills.map((skill) => (
+            {(SKILLS.softSkills || []).map((skill) => (
               <li key={skill.name} className="text-xl mb-2">
                 {skill.name}
               </li>

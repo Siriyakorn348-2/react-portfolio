@@ -1,7 +1,7 @@
 "use client"
 
 import { HERO_CONTENT } from "../constants"
-import Pic from "../assets/pic3.jpg"
+import Pic from "../assets/pic3.webp"
 import { motion, AnimatePresence } from "framer-motion"
 import { useState, useEffect } from "react"
 
@@ -14,7 +14,7 @@ const container = (delay) => ({
   },
 })
 
-const roles = ["Full Stack Developer", "Frontend Developer", "UI/UX Designer"]
+const roles = ["UI/UX Designer"]
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0)
@@ -44,10 +44,14 @@ const Hero = () => {
               <motion.span
                 key={currentRole}
                 initial={{ rotateY: 90, opacity: 0 }}
-                animate={{ rotateY: 0, opacity: 1 }}
+                animate={{ rotateY: 0, opacity: 1, y: [0, -8, 0] }}
                 exit={{ rotateY: -90, opacity: 0 }}
-                transition={{ duration: 0.8, ease: "easeInOut" }}
-                className="absolute text-4xl font-bold bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent"
+                transition={{
+                  rotateY: { duration: 0.8, ease: "easeInOut" },
+                  opacity: { duration: 0.8, ease: "easeInOut" },
+                  y: { duration: 2.2, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" },
+                }}
+                className="absolute text-4xl font-bold bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent drop-shadow-[0_0_18px_rgba(216,180,254,0.45)]"
                 style={{ backfaceVisibility: "hidden", display: "inline-block" }}
               >
                 {roles[currentRole]}

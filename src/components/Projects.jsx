@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { PROJECTS } from "../constants"
-import { FaGithub, FaTimes, FaArrowLeft, FaArrowRight } from "react-icons/fa"
+import { FaGithub, FaTimes, FaArrowLeft, FaArrowRight, FaExternalLinkAlt } from "react-icons/fa"
 import { motion, AnimatePresence } from "framer-motion"
 
 const Projects = () => {
@@ -143,7 +143,7 @@ const Projects = () => {
     </div>
   )}
 
-  <div className="flex justify-center mt-6">
+  <div className="flex flex-wrap justify-center gap-3 mt-6">
     <a
       href={selectedProject.github}
       target="_blank"
@@ -152,6 +152,16 @@ const Projects = () => {
     >
       <FaGithub size={20} /> View on GitHub
     </a>
+    {selectedProject.liveUrl && (
+      <a
+        href={selectedProject.liveUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-gradient-to-r from-pink-500 to-rose-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 hover:from-pink-600 hover:to-rose-700 hover:scale-105 transition-all duration-200 shadow-lg shadow-pink-500/30"
+      >
+        <FaExternalLinkAlt size={18} /> Live Demo
+      </a>
+    )}
   </div>
 </motion.div>
 
