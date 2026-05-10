@@ -1,11 +1,8 @@
 
-export const HERO_CONTENT = `I am a recent Computer Science graduate from Khon Kaen University with a strong interest in UX/UI design and digital product development.
-I have experience in UX/UI design, starting from gathering user requirements, analyzing user problems and behavior, to creating user flows, wireframes, prototypes, and final UI designs that align with real user needs.
-With a background in design and front-end development, I create intuitive and practical interfaces using Figma, Next.js, TypeScript, and MUI.
-I am committed to creating meaningful user experiences and continuously improving my skills as a UX/UI Designer.
+export const HERO_CONTENT = `I am a recent Computer Science graduate from Khon Kaen University with experience in UX/UI design and Front-end development. I enjoy turning ideas into user-friendly and practical digital products using Figma, Next.js, TypeScript, and MUI.
 `;
 
-export const ABOUT_TEXT = `I hold a degree in Computer Science with a cumulative GPA of 3.48. During my studies and internship, I gained hands-on experience in UX/UI design and front-end development, from gathering requirements and designing user flows to building responsive web interfaces. These experiences strengthened my problem-solving, collaboration, and ability to turn ideas into practical digital products.`;
+export const ABOUT_TEXT = `During my studies and internship, I worked on web applications, from gathering requirements and understanding user needs to designing user flows, wireframes, and building responsive interfaces.`;
 
 export const PROJECTS = [
   {
@@ -81,7 +78,7 @@ export const SKILLS = {
   backend: [
     { name: 'C#' },
     { name: '.NET' },
-    { name: 'Kotlin' },
+    { name: 'SQL Server' },
   ],
 
   softSkills: [
@@ -106,12 +103,12 @@ export const WORK_EXPERIENCES = [
     company: "REPCO NEX INDUSTRIAL SOLUTIONS ",
     duration: "Jun - Nov 2025",
     details: `
-- Gathered user requirements and identified user pain points to translate business goals into user-centered solutions.
-- Designed end-to-end user journeys, task flows, and user flows to create clear and intuitive product experiences.
-- Planned information architecture and interaction patterns to improve navigation and reduce user friction throughout the product.
-- Created wireframes, interactive prototypes, and final UI designs in Figma, focusing on usability, accessibility, and visual consistency.
-- Designed and developed responsive web interfaces using Next.js, TypeScript, and MUI, transforming approved designs into fully functional products.
-- Built reusable UI components and collaborated with backend developers to integrate RESTful APIs, ensuring smooth implementation and seamless user experiences across devices.
+- Collected user requirements and designed user interfaces using Figma.
+- Developed interactive web interfaces using Next.js, TypeScript, and MUI.
+- Implemented TypeScript across the project, reducing runtime errors and bugs.
+- Applied responsive design principles to ensure correct display across devices, improving mobile user experience.
+- Designed and optimized reusable components, enhancing development efficiency.
+- Collaborated with backend developers to integrate RESTful APIs and improve web performance, resulting in faster data retrieval and smoother user experiences.
     `,
   },
 ]

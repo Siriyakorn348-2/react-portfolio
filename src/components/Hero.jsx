@@ -1,7 +1,7 @@
 "use client"
 
 import { HERO_CONTENT } from "../constants"
-import Pic from "../assets/pic3.webp"
+import Pic from "../assets/pic5.jpg"
 import { motion, AnimatePresence } from "framer-motion"
 import { useState, useEffect } from "react"
 
@@ -14,7 +14,7 @@ const container = (delay) => ({
   },
 })
 
-const roles = ["UI/UX Designer"]
+const roles = ["Full Stack Developer", "UI/UX Designer"]
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0)
