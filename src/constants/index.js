@@ -1,6 +1,9 @@
+import { p } from "framer-motion/client";
 
-export const HERO_CONTENT = `I am a recent Computer Science graduate from Khon Kaen University with experience in UX/UI design and Front-end development. I enjoy turning ideas into user-friendly and practical digital products using Figma, Next.js, TypeScript, and MUI.
+export const HERO_CONTENT = `Computer Science graduate from Khon Kaen University with hands-on experience in web application development using C#, ASP.NET Core, SQL Server, JavaScript, and Next.js. Experienced in developing and maintaining applications, integrating RESTful APIs, and working with SQL Server databases.
+ Strong analytical, problem-solving, and teamwork skills with the ability to learn quickly and adapt to new technologies.
 `;
+
 
 export const ABOUT_TEXT = `During my studies and internship, I worked on web applications, from gathering requirements and understanding user needs to designing user flows, wireframes, and building responsive interfaces.`;
 
@@ -69,10 +72,8 @@ export const SKILLS = {
   frontend: [
     { name: 'HTML,CSS' },
     { name: 'JavaScript' },
-    {name : 'TypeScript'},
     { name: 'React' },
     { name: 'Next.js' },
-    { name: 'TailwindCSS' },
     { name: 'MUI' },
   ],
   backend: [
@@ -90,7 +91,7 @@ export const SKILLS = {
 };
 
 export const CONTACT = {
-  address: "Khon Kean, Thailand",
+  address: "Kalasin , Thailand",
   phoneNo: "+66 649 056 690",
   email: "siriyakorn0327@gmail.com",
   github: "Siriyakorn348-2"
@@ -111,4 +112,16 @@ export const WORK_EXPERIENCES = [
 - Collaborated with backend developers to integrate RESTful APIs and improve web performance, resulting in faster data retrieval and smoother user experiences.
     `,
   },
+  {
+    position: "Full Stack Developer",
+    company: "Techbox Innovation Co., Ltd. ( Senior Com Ltd.) ",
+    duration: "Feb - May 2026",
+    details: ` 
+-Developed and maintained business applications using C# and ASP.NET Core 8.
+-Designed and optimized SQL Server queries and database operations.
+-Integrated RESTful APIs and supported backend services.
+-Resolved system issues and enhanced application performance.
+-Used GitLab for version control and collaborative development.
+    `,
+  }
 ]
