@@ -14,7 +14,7 @@ const container = (delay) => ({
   },
 })
 
-const roles = ["Full Stack Developer", "UI/UX Designer"]
+const roles = ["Full Stack Developer", "Backend Developer"]
 
 const Hero = () => {
   const [currentRole, setCurrentRole] = useState(0)
